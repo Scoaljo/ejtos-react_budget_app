@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css'; // Import the custom styles
 
 import { AppProvider } from './context/AppContext';
 import Budget from './components/Budget';
@@ -23,6 +24,10 @@ const App = () => {
                     <div className='col-sm'>
                         <ExpenseTotal />
                     </div>
+                    </div>
+                    <div className='col-sm'>
+                        <CurrencySelector />
+                    </div>
                 </div>
                 <h3 className='mt-3'>Allocation</h3>
                 <div className='row '>
@@ -36,7 +41,6 @@ const App = () => {
                         <AllocationForm/>
                     </div>
                 </div>
-            </div>
         </AppProvider>
     );
 };

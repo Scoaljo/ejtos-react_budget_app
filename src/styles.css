@@ -1,0 +1,15 @@
+
+/* styles.css */
+.custom-select {
+    background-color: #98FB98;
+    border: none;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.custom-select option {
+    background-color: #98FB98;
+    color: black;
+}
